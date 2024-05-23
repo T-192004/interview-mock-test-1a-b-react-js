@@ -1,0 +1,28 @@
+.app-container {
+  background-size: cover;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 36px;
+}
+.greeting-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 60%;
+  list-style: none;
+}
+.greeting-img {
+  width: 30%;
+  height: 60%;
+  margin: 8px 0px 8px 0px;
+}
